@@ -1,0 +1,53 @@
+div,p,ul,ol,h1,h2,h3,h4,h5,h6{padding:0px;margin:0px}
+body{background-color:#fff;margin:0px}
+.main{width:980px;height:1386px;margin:0 auto;border:1px #938e8c solid;}
+.header{width:892px;height:61px;border-bottom:2px #938e8c solid;margin:0 auto}
+.logo{width:110px;height:61px;background:red;float:left;}
+.logo p{text-align:center;margin-top:40px;font-size: 12px;color:#ffffff; font-family: "黑体 sans-serif"；}
+.date{float:right;margin-top:5px;}
+.date p{font-size:12px;color:#d45d5c;margin-top:40px;font-family:"黑体 sans-serif "；}
+.banner{width:892px;height:301px;margin:0 auto;margin-bottom:15px}
+.a-img{width:641px;height:301px;float:left;margin-top: 15px;position:relative;}
+.a-img-left{width:191px;height:301px;background-color:rgba(0,255,0,.5);position:absolute;top:0;left:0;}
+.a-img-right{width:191px;height:301px;background-color:rgba(255,0,0,.5);position:absolute;top:0;right: 0;}
+.banner-information{width:203px;height:301px;border-top:2px solid #cc8091;float:right;margin-top: 15px;}
+.banner-information p{font-size:24px;color:#000000;font-family: "Microsoft Yahei";text-decoration: underline;line-height: 40px}
+.banner-information h3{font-size:12px;color:#676767;line-height: 10px;font-family: "楷体"；}
+.banner-information h1{font-size:116px;color:#75b86b;font-family: "Microsoft Yahei";font-style: italic;margin-left:-30px;}
+.banner-information h2{font-size:55px;color:#cc8091;font-family: "Microsoft Yahei";float:left;margin-top:-13px;}
+.banner-information h5{font-size:21px;color:#cc8091;font-family: "Microsoft Yahei";float:left;margin-top:4px;}
+.banner-information h6{font-size:12px;color:#cc8091;font-family: "Microsoft Yahei";margin-top:32px;}
+.a-letter{width:892px;height:100px;margin:0 auto;margin-bottom:100px;}
+.a-letter-What{width:200px;margin-right:20px;float:left;margin-top:15px;}
+.a-letter-What h1{width:200px;font-size:16px;color:#418c59;font-family: "Microsoft Yahei";text-decoration: underline;font-weight: bold;}
+.a-letter-What p{font-size:12px;color:#767777;font-family: "宋体";line-height: 16px;}
+.a-letter-When{width:200px;margin-right:20px;float:left;margin-top:15px;}
+.a-letter-When h1{font-size:16px;color:#d2994f;text-decoration: underline;font-weight: bold;}
+.a-letter-When p{font-size:12px;color:#232825;line-height: 16px;font-family: "Microsoft Yahei";opacity: 0.7;}
+.a-letter-How{width:200px;float:left;margin-top:15px;}
+.a-letter-How h1{font-size:16px;color:#cc7680;font-weight: bold;text-decoration: underline;}
+.a-letter-How p,ul{font-size:13px;color:#cd4a48;font-family: "Macrosoft Yahei";line-height: 16px;font-style: italic;list-style: none;}
+.last{width:892px;height:835px;margin:0 auto;padding-top: 82px}
+.last-one{width:430px;margin-right:16px;}
+.last-one-t{width:415px;border-bottom: 2px solid #938e8c;float:left;margin-bottom:15px;text-align: justify;}
+.last-one-t h1 span{font-size:72px;color:#f5e327;font-family: "Microsoft Yahei";font-style: italic;font-weight: bold;}
+.last-one-t h1{font-size:42px;color:#11456b;font-family: "黑体";font-weight: bold;line-height: 42px;}
+.last-one-t h2{font-size:33px;color:#11456b;font-family: "黑体";font-weight: bold;line-height: 30px;}
+.last-one-b{width:430px;float:left;}
+.last-one-b img{float:right;}
+.last-one-b p{text-indent: 2em;font-size:14px;}
+.last-one-b p span{font:70px "Microsoft Yahei";color:#f5e327;float:left;}
+.last-two{width:458px;float:right;}
+.last-two-t{width:458px;height:275px;position:relative;margin-bottom:20px;margin-top:-136px;}
+.dingwei{position:absolute;bottom:18px;height:61px;width:430px;margin-left:20px;margin-top:30px;background-color:rgba(0,0,0,.7);border-left:3px solid #72b16a;font:12px "Microsoft Yahei";color:#72b16a;font-style: italic;}
+.dingwei span{font:26px "Microsoft Yahei";color:#ffffff}
+.last-two-b{width:458px;height:316px;float:right;background-color:moccasin;position: relative;}
+.last-two-b ul{font:16px "宋体";color:#5a5b5b;line-height: 36px;list-style-type: none}
+.hezi{width:260px;height:160px;background-color:red;position: absolute;bottom:0;left:0;}
+.hezi h1{font:110px "Microsoft Yahei";color:#ffffff;float:left;}
+.weizhi{width:140px;height:86px;padding:3px;border-left:2px solid #ffffff;float:left;line-height: 160px;margin-top:35px;}
+.weizhi h2{font:21px "黑体";font-style: italic;color:#ffffff;line-height: 27px}
+.weizhi h3{font:12px "黑体";line-height: 12px;color:#ffffff}
+.last-two-b-r{width:168px;float:right;margin-right:10px;}
+.last-two-b-r p{font:14px "黑体";color:#5a5b5b;font-style: italic;line-height: 16px;}
+.last-two-b-r p span{font:72px "黑体";color:#d45d5c;}
