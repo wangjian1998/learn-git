@@ -1,0 +1,53 @@
+div ol ul li h1 h2 h3 h4 h5{margin: 0;padding: 0}
+.main{
+    width:1400px;
+    margin:auto;
+}
+.header{
+    width:1400px;
+    height: 50px;
+    border-bottom: 3px solid #000;
+    }
+    .header h1{
+     text-align: center;
+     font:30px "Microsoft Yahei";
+     line-height: 50px;
+    }
+   .contain{
+     width:1400px;
+     margin-top:40px;
+     margin:auto;
+        }
+        .contain ul{
+            margin-left:500px;
+            padding-right:30px;
+        }
+        .contain{
+            width:1400px;
+            height:115px;
+        }
+    .contain ul li{
+        font-size:15px;
+        float:left;
+        list-style: none;
+       margin-right:30px;
+    }
+    .data{
+        width:1400px;
+        margin-top:30px;
+        margin-left:550px;
+        float:left;
+        padding-right:20px;
+        }
+        .advice{
+            width:1200px;
+            height:100px;
+            margin:auto;
+            border:1px solid #000;
+            padding-left:20px;
+            padding-right:20px;
+        }
+        .advice p{
+            text-indent: 2em;
+        }
+        
