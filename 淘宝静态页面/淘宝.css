@@ -1,0 +1,270 @@
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.header{
+    height:36px;
+    margin:0 auto;
+
+}
+.header-left{
+    height:36px;
+    width:300px;
+    margin-left:100px;
+    float:left;
+}
+.nav-left li{
+    float: left;
+    font-size: 14px;
+    margin-right:10px;
+    line-height: 36px;
+}
+
+.header-right{
+    height: 36px;
+    width:650px;
+    margin-right:100px;
+    float:right;
+}
+.nav-right li{
+    float: left;
+    font-size: 14px;
+    margin-right:10px;
+    line-height: 36px;
+}
+.superbanner-inner{
+    height: 100px;
+    padding-left:74px;
+    margin:0 auto;
+    background-image: url(https://img.alicdn.com/tfs/TB1XcF2JyrpK1RjSZFhXXXSdXXa-1920-100.png)
+}
+.superbanner-inner ul li{
+    float: left;
+    margin-right:10px;
+    margin-top:13px;
+  
+}
+.main{
+    height:800px;
+    background-size:400px;
+    background-image: url(https://img.alicdn.com/tfs/TB1hT42JCzqK1RjSZPxXXc4tVXa-360-800.png)
+}
+.logo{
+    width:1190px;
+    height:140px;
+    margin:0 auto;
+    background-color: #fff;
+}
+.logo img{
+    display: inline-block;
+    width:150px;
+    margin-top:40px;
+    float:left;
+    margin-left:30px;
+}
+.title{
+    width:670px;
+    height:140px;
+    margin-left:50px;
+    float:left;
+    
+}
+.title ul{
+    margin-top: 15px;
+    margin-left:100px;
+}
+.title li{
+    float:left;
+    margin-right:5px;
+    
+}
+.title p{
+    width:500px;
+    height:50px;
+    line-height:50px;
+    border:1px solid red;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.title li a:hover{
+    background-color:red;
+    color:#fff;
+    border-radius: 35%;
+}
+.title  p span{
+    display: inline-block;
+    width:100px;
+    height:50px;
+    background-color: red;
+    float: right;
+    text-align: center;
+}
+.nav2{
+    width:1190px;
+    height:30px;
+    margin:0 auto;
+    
+}
+.nav2 p{
+    width:190px;
+    height:30px;
+    text-align:center;
+    float:left;
+    background-color:#ff0000;
+    line-height:30px;
+}
+.nav2-1{
+    width:250px;
+    height:30px;
+    float:left;
+    background-color:#f1600c;
+}
+.nav2-1 li{
+    width:66px;
+    height:30px;
+    line-height: 30px;
+    float:left;
+    margin-left:5px;
+}
+.nav2-2{
+    width:450px;
+    height:30px;
+    float:left;
+    background-color:#f1600c;
+}
+.nav2-2 li{
+    width:66px;
+    height:30px;
+    line-height: 30px;
+    float:left;
+    margin-left:20px;
+}
+.nav2-3{
+    width:300px;
+    height:30px;
+    float:left;
+    background-color:#f1600c;
+}
+.nav2-3 li{
+    width:66px;
+    height:30px;
+    line-height: 30px;
+    float:left;
+    margin-left:25px;
+}
+.nav2 a:hover{
+    background-color:#fff;
+    color:#f1600c;
+}
+.nav2-1 ul::after{
+    content: "|";
+}
+.screen{
+    height:525px;
+    width:1190px;
+    margin: 0 auto;
+}
+.screen-left{
+    width:190px;
+    height:520px;
+    border:1px solid red;
+    border-top: none;
+    float:left;
+    background-color:#fff;
+}
+.screen-left p{
+    text-align: center;
+    color:#666;
+    font-size:14px;
+    height:32px;
+    line-height:32px;
+}
+.screen-left p :hover{
+    color:red;
+    background-color:rgb(176, 195, 214);
+}
+.screen-left p a :hover{
+    text-decoration: red;
+}
+.screen-middle{
+    width:690px;
+    height:520px;
+    padding-left:5px;
+    float: left;
+    background-color:#fff;
+}
+.screen-middle img{
+    display: inline-block;
+    margin-top:16px;
+    margin-right:4px;
+    float:left;
+}
+/* .screen-middle p{
+    font-size:12px;
+    margin-top:2px;
+    display: inline;
+} */
+.screen-right{
+    width:295px;
+    height:520px;
+    padding-right:6px;
+    float:left;
+    background-color:#fff;
+}
+.message{
+    width:295px;
+    height:145px;
+}
+.message li{
+    width:90px;
+    height:25px;
+    line-height: 25px;
+    font-size: 15px;
+    text-align: center;
+    color:#fff;
+    background-color:rgb(248, 85, 10);
+    border-radius: 15%;
+    float:left;
+    margin-left:5px;;
+}
+.attention{
+    width:295px;
+    height:135px;
+    margin-top:5px;
+}
+.report{
+    height:25px;
+    text-align:center;
+    line-height: 25px;
+    font-size: 15px;
+    background-color: #666;
+}
+.attention ul{
+    margin-left:15px;
+    height:40px;
+}
+.attention li{
+    float:left;
+    font-size: 12px;
+    margin-right:20px;
+    margin-top:20px;
+}
+.attention ul li a :hover{
+    color:red;
+}
+.announcement{
+    height:50px;
+    width:295px;
+    background-color: rgb(233, 205, 205);
+    font-size:15px;
+    clear: both;
+    text-indent: 2em;
+    margin-top:10px;
+}
